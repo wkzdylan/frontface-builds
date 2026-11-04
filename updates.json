@@ -27,7 +27,9 @@
         { "type": "new", "title": "Steady aim.", "text": "Hold sprint while scoped to hold your breath against the sway." },
         { "type": "new", "title": "Stims for every class.", "text": "Every class can carry a stim shot." },
         { "type": "new", "title": "12 more guns.", "text": "More guns for every class." },
-        { "type": "improved", "title": "Every launcher for Support.", "text": "Support can now carry all of the launchers." }
+        { "type": "improved", "title": "Every launcher for Support.", "text": "Support can now carry all of the launchers." },
+        { "type": "improved", "title": "Display and Resolution settings.", "text": "Choose full screen or windowed and a resolution under Settings, Graphics." },
+        { "type": "fixed", "title": "Black bars under Proton.", "text": "Full screen at the wrong shape snaps back to the monitor's size, and the Resolution list uses that real size (0.1.1 and 0.1.2)." }
       ]
     },
     {
