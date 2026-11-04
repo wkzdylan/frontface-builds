@@ -14,6 +14,18 @@
   "releases": [
     {
       "date": "2026-11-04",
+      "label": "0.1.6",
+      "title": "Finer detail, and the launcher on servers",
+      "summary": "Soldiers near you, every attachment and the guns' round parts are drawn in finer detail, and the underbarrel grenade launcher now works for players on a server.",
+      "entries": [
+        { "type": "fixed", "title": "The underbarrel launcher on servers.", "text": "On a server, the official one included, B said there was no launcher under the gun even with an M203 or GP-25 fitted. It now brings the launcher up and its grenades fly, as they always did offline.", "images": [{ "src": "gp25-in-hand.jpg", "alt": "First person holding an AK-74 with a GP-25, the launcher tag beside the ammo showing B and Rifle", "caption": "The GP-25 up, B back to the rifle" }] },
+        { "type": "improved", "title": "Soldiers up close.", "text": "Within about 16 m soldiers are drawn in finer detail: rounder limbs, boots, hands and helmets, pocket snaps, knee pad buckles, boot tread, a sleeve pocket with a flag patch, glove seams, webbing loops round the vest and belt, buckles, zips, a drag handle, and a light, strobe and shock cord on the helmet. Further off they keep the plain body, so a full fight costs about the same.", "images": [{ "src": "soldier-detail.jpg", "alt": "A soldier's plate carrier, sleeves and belt up close, with buckles, webbing and a sleeve pocket", "caption": "The near body" }] },
+        { "type": "improved", "title": "Attachments and guns.", "text": "Clamp nuts and bolts, adjuster screws, lens rings, ring screws on scopes, flutes and vents on suppressors, notched bipod legs, a light's bezel and tail switch, lenses, knobs and a selector on laser boxes, the drum's winding key. Every gun's barrels, tubes, grips and knobs are smoother too.", "images": [{ "src": "attachments-detail.jpg", "alt": "An M4A1 with a 1-6x scope, flash hider, stubby grip and light, side-on", "caption": "Scope rings, clamp and grip up close" }] },
+        { "type": "tools", "title": "A slower first load.", "text": "The first match after updating takes about 20 seconds to load while the new parts are shaded. After that it's as quick as before." }
+      ]
+    },
+    {
+      "date": "2026-11-04",
       "label": "0.1.5",
       "title": "Tighter maps and swimming",
       "summary": "Every map closes in, with less open ground and more cover between the deployments. Deep water is swum, not walked, ammo types join Create a class, and the HUD shows the controller's buttons when you play on one.",
