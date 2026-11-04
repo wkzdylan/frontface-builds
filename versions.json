@@ -36,5 +36,13 @@
     "size": 66420133,
     "sha256": "2b6bd9d9529bab6b8632a99d01498166dda88db9b4c4e06d03baea25403105a8",
     "date": "2026-11-04T02:29:49Z"
+  },
+  "launcher_linux": {
+    "version": "1.0.0",
+    "tag": "launcher",
+    "asset": "Frontface-Launcher-x86_64.AppImage",
+    "size": 115489272,
+    "sha256": "5e0ebe7c9c727c7d41e8c6f1e24f5ea6ca648660f05902707a317ff36d7495ca",
+    "date": "2026-11-04T03:25:01Z"
   }
 }
