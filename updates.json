@@ -14,11 +14,13 @@
   "releases": [
     {
       "date": "2026-11-04",
-      "label": "Launcher",
-      "title": "The launcher and the browser version",
-      "summary": "Frontface now installs and updates through its own launcher, with builds from GitHub. The browser version went live the same day, and servers can take browser players.",
+      "label": "Launchers",
+      "title": "Launchers for Windows and Steam Deck",
+      "summary": "Frontface now installs and updates through its own launcher on Windows and on the Steam Deck, with builds from GitHub. The browser version went live the same day, and servers can take browser players.",
       "entries": [
         { "type": "new", "title": "Frontface Launcher.", "text": "Install, update and play Windows builds, keep older versions side by side, join a server by its address, and read these notes." },
+        { "type": "new", "title": "Steam Deck launcher.", "text": "A Linux launcher for the Deck that works with the controller in Game Mode, opens Steam's keyboard for the Join box, and updates itself." },
+        { "type": "new", "title": "Native Linux build.", "text": "From 0.1.1 every version also comes for Linux, so the Deck runs Frontface without Proton. Windows and Deck players can join each other's servers." },
         { "type": "new", "title": "Play in the browser.", "text": "frontface-neon.vercel.app runs the game against bots in Chrome with WebGPU, no install." },
         { "type": "new", "title": "Servers for browser players.", "text": "A dedicated server can speak WebSockets (websocket = 1 in server.cfg), so browser and desktop players can play on the same server." },
         { "type": "new", "title": "Controller support.", "text": "Move, aim, lean while aiming, throw gadgets and work the menus with a gamepad." },
@@ -67,6 +69,7 @@
     }
   ],
   "inProgress": [
+    { "title": "A real Steam Deck", "status": "testing", "body": "The Deck launcher and the Linux build were tested on Linux on a PC: installing, and joining a server from the launcher. Running them on a Deck, with the game drawn on the Deck's own GPU, comes next." },
     { "title": "A public server", "status": "waiting", "body": "Servers work on a home PC. Browser players also need a secure (wss://) address, and the way to provide one hasn't been chosen yet." },
     { "title": "Real controllers", "status": "testing", "body": "Controller support was built and tested with scripted input; it still needs a real gamepad in hand." },
     { "title": "Playing by hand", "status": "testing", "body": "Every build is checked by scripts. Long matches with a real mouse, LAN games and listening to the new sounds come next." }
