@@ -14,6 +14,19 @@
   "releases": [
     {
       "date": "2026-11-04",
+      "label": "0.1.5",
+      "title": "Tighter maps and swimming",
+      "summary": "Every map closes in, with less open ground and more cover between the deployments. Deep water is swum, not walked, ammo types join Create a class, and the HUD shows the controller's buttons when you play on one.",
+      "entries": [
+        { "type": "improved", "title": "Tighter maps.", "text": "The play area is about a sixth smaller across and the deployments sit closer. The open ground between them now has forward posts, huts, low walls, groves of trees and loose cover to move between.", "images": [{ "src": "depot-tight.jpg", "alt": "The Depot from above: the container yard, the depot buildings and the outposts, with cover and huts across the open ground", "caption": "The Depot, tighter" }] },
+        { "type": "new", "title": "Swimming.", "text": "Deep water floats you with your eyes just above the surface. You swim slower than you walk, faster with sprint held, with the gun lowered. Walk out at a bank, or press Jump at a quay to climb out. Bots keep out of deep water and cross by the bridges.", "images": [{ "src": "swimming.jpg", "alt": "First person, swimming in Timberline's river with a wooden bridge ahead", "caption": "In Timberline's river" }] },
+        { "type": "new", "title": "Ammo types.", "text": "A new slot in Create a class. Rifles, SMGs and pistols take standard, hollow point (harder up close, falls off sooner), armour piercing (goes through thin walls) or subsonic (slow, near silent under a suppressor). Shotguns take buckshot, slugs or flechettes." },
+        { "type": "new", "title": "Controller prompts.", "text": "With a controller in hand the HUD and loading tips show its buttons: LB and RB for gadgets, d-pad up for a killstreak, X to reload. On the keyboard they show your own key bindings.", "images": [{ "src": "controller-prompts.jpg", "alt": "The match HUD with LB and RB beside the gadgets, a d-pad beside the killstreak and Press X to reload", "caption": "Playing on a controller" }] },
+        { "type": "fixed", "title": "Underbarrel launchers.", "text": "B, or d-pad left on a controller, switches to the M203 or GP-25 and back. With no launcher fitted it now says so, and a tag beside the ammo shows the launcher, its rounds and its button." }
+      ]
+    },
+    {
+      "date": "2026-11-04",
       "label": "0.1.4",
       "title": "32 a side",
       "summary": "Every map grew for 64 soldiers: five flags across a wider front, an outpost on each flank and a long approach from each deployment. The M32 loads like the real one, and the Steam Deck's keyboard types into the game.",
