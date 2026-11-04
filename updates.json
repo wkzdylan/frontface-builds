@@ -14,6 +14,23 @@
   "releases": [
     {
       "date": "2026-11-04",
+      "label": "0.1.3",
+      "title": "Accounts, a server list and an official server",
+      "summary": "Make a Frontface account and your name follows you onto every scoreboard. Servers now list themselves on a new page of the title screen, and an official server is up in the US East.",
+      "entries": [
+        { "type": "new", "title": "Accounts.", "text": "Sign in or make an account from the top right of the title screen, or on the accounts page at 129-80-83-173.sslip.io. Without one you play as Guest and a number.", "images": [{ "src": "signin.jpg", "alt": "The title screen's account panel with name and password boxes", "caption": "Sign in from the title screen" }] },
+        { "type": "new", "title": "Server list.", "text": "Servers on the title screen lists every running dedicated server with its map and players, and joins in one click. Dedicated servers list themselves; a hosted game can be listed from the match setup.", "images": [{ "src": "servers.jpg", "alt": "The Servers page listing Frontface official (US East) on The Depot", "caption": "The server list" }] },
+        { "type": "new", "title": "Official server.", "text": "Frontface official (US East) runs all six maps around the clock for signed-in players." },
+        { "type": "new", "title": "Aim over cover.", "text": "Raise your gun over a wall or ledge in front of you to aim and fire over it." },
+        { "type": "new", "title": "Underbarrel launchers, Kobra and reticles.", "text": "The M203 and GP-25 sit flush under the barrel with their own trigger, round and leaf sight. A side-mounted Kobra for the AK-74, RPK and SVD, and a choice of reticle saved with each class." },
+        { "type": "improved", "title": "Launchers.", "text": "Rockets and grenades fly with real speeds and drop, and blasts are bigger." },
+        { "type": "improved", "title": "Bots.", "text": "Bots move as squads, clear rooms and go for the flags first." },
+        { "type": "improved", "title": "The scoreboard fits a full server.", "text": "Rows shrink to fit both sides, and past about 30 a side the board scrolls with the mouse wheel, starting at your own row.", "images": [{ "src": "scoreboard.jpg", "alt": "The scoreboard with twenty players on each side", "caption": "Twenty a side" }] },
+        { "type": "fixed", "title": "Names online.", "text": "Every player used to be called You on a server. Now it's your account name, or a Guest name." }
+      ]
+    },
+    {
+      "date": "2026-11-04",
       "label": "Launchers",
       "title": "Launchers for Windows and Steam Deck",
       "summary": "Frontface now installs and updates through its own launcher on Windows and on the Steam Deck, with builds from GitHub. The browser version went live the same day, and servers can take browser players.",
@@ -72,7 +89,7 @@
   ],
   "inProgress": [
     { "title": "A real Steam Deck", "status": "testing", "body": "The Deck launcher and the Linux build were tested on Linux on a PC: installing, and joining a server from the launcher. Running them on a Deck, with the game drawn on the Deck's own GPU, comes next." },
-    { "title": "A public server", "status": "waiting", "body": "Servers work on a home PC. Browser players also need a secure (wss://) address, and the way to provide one hasn't been chosen yet." },
+    { "title": "Browser players on the official server", "status": "waiting", "body": "The official server is up for Windows and Deck players. Browser players need it to speak secure WebSockets (wss://) as well, which comes next." },
     { "title": "Real controllers", "status": "testing", "body": "Controller support was built and tested with scripted input; it still needs a real gamepad in hand." },
     { "title": "Playing by hand", "status": "testing", "body": "Every build is checked by scripts. Long matches with a real mouse, LAN games and listening to the new sounds come next." }
   ]
