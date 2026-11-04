@@ -1,8 +1,28 @@
 {
   "schema": 1,
   "repo": "wkzdylan/frontface-builds",
-  "updated": "2026-11-04T03:28:46Z",
+  "updated": "2026-11-04T06:47:07Z",
   "versions": [
+    {
+      "version": "0.1.3",
+      "channel": "stable",
+      "date": "2026-11-04T06:47:07Z",
+      "tag": "v0.1.3",
+      "asset": "Frontface-0.1.3-win64.zip",
+      "size": 63499700,
+      "sha256": "837bd55f70ae696657fd7bc1002502583db3b70c1a7b8792c45d07617960ff6d",
+      "notes": "Accounts, a server list and an official server.\n\n- Accounts: sign in or make one from the title screen (top right) or at https://129-80-83-173.sslip.io. Your account name is your name on every scoreboard; without one you play as Guest and a number.\n- Servers: a new page on the title screen lists every running dedicated server with its map and players, and joins in one click. Dedicated servers list themselves; a hosted game can be listed from the match setup.\n- Official server: Frontface official (US East) is up for signed-in players.\n- The scoreboard fits a full server: rows shrink to fit, and past about 30 a side it scrolls with the mouse wheel.\n- Aim over cover, launchers with real ballistics and bigger blasts, flush M203 and GP-25 underbarrel launchers with their own sight, a side-mounted Kobra, and reticles you choose per class.\n- Bots move as squads and go for the flags first.\n- Known issue: a bot crouched right behind a wall can poke its rifle muzzle through it.",
+      "server": {
+        "asset": "Frontface-Server-0.1.3-win64.zip",
+        "size": 56083333,
+        "sha256": "ffc219c007a95e89f7cca947065be38e89fc5b0e1b37ab421ab4a17642a9897a"
+      },
+      "linux": {
+        "asset": "Frontface-0.1.3-linux-x86_64.zip",
+        "size": 51989409,
+        "sha256": "5da7f2da3e0c6c1f0bc7948da03c0332a045a7c053c46cb31d211c82d6660316"
+      }
+    },
     {
       "version": "0.1.2",
       "channel": "stable",
