@@ -1,8 +1,23 @@
 {
   "schema": 1,
   "repo": "wkzdylan/frontface-builds",
-  "updated": "2026-11-04T02:14:34Z",
+  "updated": "2026-11-04T03:21:17Z",
   "versions": [
+    {
+      "version": "0.1.1",
+      "channel": "stable",
+      "date": "2026-11-04T03:21:17Z",
+      "tag": "v0.1.1",
+      "asset": "Frontface-0.1.1-win64.zip",
+      "size": 63443132,
+      "sha256": "8c55ad200c512216d9534bca7cade3f2f59c5c6dcaf374d4144142adbaf61f52",
+      "notes": "Frontface for the Steam Deck and Linux, and a full-screen fix.\n\n- Native Linux / Steam Deck build: install it with the Frontface Launcher AppImage (no Proton needed). Windows and Deck players can join each other's servers.\n- Full screen at the wrong shape (side bars under Proton) now snaps back to the monitor's size.\n- Display (full screen or windowed) and Resolution settings under Settings > Graphics.\n- Controller mapping for Linux.",
+      "linux": {
+        "asset": "Frontface-0.1.1-linux-x86_64.zip",
+        "size": 51927556,
+        "sha256": "9c9d63f4923d2a4ec4cb780762952293c2c04b86b84853eab285cd2bca9b4b20"
+      }
+    },
     {
       "version": "0.1.0",
       "channel": "stable",
