@@ -1,8 +1,28 @@
 {
   "schema": 1,
   "repo": "wkzdylan/frontface-builds",
-  "updated": "2026-11-04T06:47:07Z",
+  "updated": "2026-11-04T08:46:51Z",
   "versions": [
+    {
+      "version": "0.1.4",
+      "channel": "stable",
+      "date": "2026-11-04T08:46:51Z",
+      "tag": "v0.1.4",
+      "asset": "Frontface-0.1.4-win64.zip",
+      "size": 63506030,
+      "sha256": "cadf7ea5f2de05ee00d5ea47682bfad0bcab99741cdf1e7d8bf39a0512a39368",
+      "notes": "32 a side, a reworked M32 and typing on the Steam Deck.\n\n- Every map is bigger, made for 32 a side: five flags across a wider front, with an outpost on each flank (a logging camp, a radio relay, a mud-house hamlet, checkpoints, a radar site, a hangar yard, a farmstead, bridges over Timberline's river, dockside depots at Port Anvil), and deployments further back behind an approach of cover, forward posts and tree lines.\n- Bots go up to 32 a side (16 by default), tickets up to 1200. Dedicated servers run 32 a side by default, the official server too.\n- M32: the frame swings open to the side, each grenade goes into the chamber beside the barrel and the cylinder winds round to the next one. Its red dot sight is no longer blocked.\n- Steam Deck: the on-screen keyboard types into the game's text boxes (server address, sign-in) and opens by itself when you pick one. Enter joins from the address box.\n- Servers must be 0.1.4 too: the maps changed, so a 0.1.3 game and a 0.1.4 server build different worlds.\n- Known: with your whole side in view at the deployment the frame rate dips for the first seconds of a 32-a-side match; a rocket can now and then pass through a soldier who has only just spawned.",
+      "server": {
+        "asset": "Frontface-Server-0.1.4-win64.zip",
+        "size": 56089751,
+        "sha256": "d2baec342cffa6e054be3335052aaeb8715a7cd91b9e3eb74f5989616220f147"
+      },
+      "linux": {
+        "asset": "Frontface-0.1.4-linux-x86_64.zip",
+        "size": 51996160,
+        "sha256": "ddd5374d3c74efa5e200a6c9fd36fb42eec6960e83f484dbcd14edb201ea1c06"
+      }
+    },
     {
       "version": "0.1.3",
       "channel": "stable",
