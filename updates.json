@@ -1,0 +1,74 @@
+{
+  "updated": "2026-11-04",
+  "hero": { "src": "depot.jpg", "alt": "First person view at The Depot, an M4A1 with a red dot beside a parked truck", "caption": "The Depot" },
+  "pictures": [
+    { "src": "spawn.jpg", "alt": "Spawning on The Depot with an M4A1", "caption": "Spawning on The Depot" },
+    { "src": "deploy.jpg", "alt": "The deploy screen with five classes and the map", "caption": "Pick a class, pick a spawn" },
+    { "src": "acog.jpg", "alt": "Looking through a 4x ACOG at sandbags", "caption": "Scopes that really magnify" },
+    { "src": "armoury.jpg", "alt": "Six guns side by side", "caption": "The first six guns, measured from photographs" },
+    { "src": "oldtown.jpg", "alt": "Old Town from above", "caption": "Old Town" },
+    { "src": "rpg.jpg", "alt": "An RPG-7 round going off", "caption": "RPG-7" },
+    { "src": "soldiers.jpg", "alt": "Eight soldiers, four from each side", "caption": "Both sides" },
+    { "src": "church.jpg", "alt": "Light shafts around a church in Old Town", "caption": "Light shafts" }
+  ],
+  "releases": [
+    {
+      "date": "2026-11-04",
+      "label": "Launcher",
+      "title": "The launcher and the browser version",
+      "summary": "Frontface now installs and updates through its own launcher, with builds from GitHub. The browser version went live the same day, and servers can take browser players.",
+      "entries": [
+        { "type": "new", "title": "Frontface Launcher.", "text": "Install, update and play Windows builds, keep older versions side by side, join a server by its address, and read these notes." },
+        { "type": "new", "title": "Play in the browser.", "text": "frontface-neon.vercel.app runs the game against bots in Chrome with WebGPU, no install." },
+        { "type": "new", "title": "Servers for browser players.", "text": "A dedicated server can speak WebSockets (websocket = 1 in server.cfg), so browser and desktop players can play on the same server." },
+        { "type": "new", "title": "Controller support.", "text": "Move, aim, lean while aiming, throw gadgets and work the menus with a gamepad." },
+        { "type": "new", "title": "Steady aim.", "text": "Hold sprint while scoped to hold your breath against the sway." },
+        { "type": "new", "title": "Stims for every class.", "text": "Every class can carry a stim shot." },
+        { "type": "new", "title": "12 more guns.", "text": "More guns for every class." },
+        { "type": "improved", "title": "Every launcher for Support.", "text": "Support can now carry all of the launchers." }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "label": "Arsenal",
+      "title": "Thirty-three guns, launchers and a dedicated server",
+      "summary": "Every gun rebuilt from real photographs, a gun list per class, launchers, new ways to move, new maps and a server you can run at home.",
+      "entries": [
+        { "type": "new", "title": "33 guns, each owned by a class.", "text": "Assault, Support, Medic, Recon and Breacher each have their own guns; pistols go with any class. Lengths are within a few millimetres of the real ones.", "images": [{ "src": "armoury.jpg", "alt": "Six guns side by side", "caption": "Measured from photographs" }] },
+        { "type": "new", "title": "Launchers.", "text": "LAW, Carl Gustaf, RPG-7 and M32, plus M203 and GP-25 grenade launchers under the rifle.", "images": [{ "src": "rpg.jpg", "alt": "An RPG-7 round going off", "caption": "RPG-7" }] },
+        { "type": "new", "title": "Two gadget slots and killstreaks.", "text": "Each class picks two gadgets, and a run of kills earns more." },
+        { "type": "new", "title": "Optics that really magnify.", "text": "A 4x scope shows 4x, measured on a target at 60 m. Canted sights for close range.", "images": [{ "src": "acog.jpg", "alt": "Looking through a 4x ACOG", "caption": "4x ACOG" }] },
+        { "type": "new", "title": "New ways to move.", "text": "Prone, dive to prone, crouch slide, vault over cover and through windows, mount your gun on cover while aiming, and a tactical sprint (double-tap Shift)." },
+        { "type": "new", "title": "Redwing Airfield and Old Town.", "text": "Two new maps, and The Depot redone as a mirrored map so neither side starts ahead.", "images": [{ "src": "airfield.jpg", "alt": "Redwing Airfield from above", "caption": "Redwing Airfield" }, { "src": "oldtown.jpg", "alt": "Old Town from above", "caption": "Old Town" }] },
+        { "type": "new", "title": "Dedicated server.", "text": "A Windows server package with server.cfg and a map rotation that keeps players between matches." },
+        { "type": "new", "title": "A voice for every soldier.", "text": "Each soldier keeps one voice for all of their lines." },
+        { "type": "improved", "title": "Guns rebuilt.", "text": "Low poly but detailed: real cuts, rounded grips, pins, knurling and roll marks, with smoother reloads." },
+        { "type": "improved", "title": "Hands sit on the gun.", "text": "Both hands reach the grip, handguard and charging handle in first and third person, through every reload." },
+        { "type": "improved", "title": "Smoke, fire and light.", "text": "Soft lit smoke, flame, light shafts and indoor exposure.", "images": [{ "src": "smoke.jpg", "alt": "A smoke grenade going off", "caption": "Smoke" }, { "src": "church.jpg", "alt": "Light shafts in Old Town", "caption": "Light shafts" }] },
+        { "type": "improved", "title": "Graphics options.", "text": "Anti-aliasing, shadows, ambient occlusion, depth of field, bloom, motion blur, grain, light shafts, render scale and a frame cap." },
+        { "type": "improved", "title": "Bots.", "text": "Bots notice you gradually and fight at the range their gun suits." },
+        { "type": "fixed", "title": "Shots stopped by invisible walls.", "text": "Bullets now hit the shape of the cover you see, not a box around it." }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "label": "First playable",
+      "title": "Frontface is playable",
+      "summary": "Conquest against bots or friends, real guns with real reloads, your own classes and four maps.",
+      "entries": [
+        { "type": "new", "title": "Conquest.", "text": "Take and hold the flags; the side that runs out of tickets loses.", "images": [{ "src": "spawn.jpg", "alt": "Spawning on The Depot", "caption": "The Depot" }] },
+        { "type": "new", "title": "Six real guns.", "text": "M4A1, AK-74, MP5A3, Glock 17, Model 870 and M24, with magazine reloads and spent brass." },
+        { "type": "new", "title": "Online play.", "text": "Host a game or join one by address." },
+        { "type": "new", "title": "Create a class.", "text": "Five saved classes, attachments for every gun, and gadgets for each role.", "images": [{ "src": "classes.jpg", "alt": "The create-a-class screen", "caption": "Create a class" }] },
+        { "type": "new", "title": "Four maps.", "text": "The Depot, Sandstone, Port Anvil and Timberline.", "images": [{ "src": "timberline.jpg", "alt": "A watchtower among pines on Timberline", "caption": "Timberline" }] },
+        { "type": "new", "title": "The interface.", "text": "Title screen, loading, deploy, pause, settings, death and end-of-match screens.", "images": [{ "src": "title.jpg", "alt": "The title screen", "caption": "Title screen" }, { "src": "host.jpg", "alt": "The host game screen", "caption": "Hosting a game" }] },
+        { "type": "tools", "title": "Props from the 3D studio.", "text": "Seventeen props, from the APC to the satellite dish, made in the AI 3D studio and drawn in the game's own style.", "images": [{ "src": "props.jpg", "alt": "Studio-made props in the game", "caption": "Studio props in a match" }] }
+      ]
+    }
+  ],
+  "inProgress": [
+    { "title": "A public server", "status": "waiting", "body": "Servers work on a home PC. Browser players also need a secure (wss://) address, and the way to provide one hasn't been chosen yet." },
+    { "title": "Real controllers", "status": "testing", "body": "Controller support was built and tested with scripted input; it still needs a real gamepad in hand." },
+    { "title": "Playing by hand", "status": "testing", "body": "Every build is checked by scripts. Long matches with a real mouse, LAN games and listening to the new sounds come next." }
+  ]
+}
