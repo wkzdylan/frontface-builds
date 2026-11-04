@@ -1,8 +1,28 @@
 {
   "schema": 1,
   "repo": "wkzdylan/frontface-builds",
-  "updated": "2026-11-04T20:49:54Z",
+  "updated": "2026-11-04T23:00:30Z",
   "versions": [
+    {
+      "version": "0.1.6",
+      "channel": "stable",
+      "date": "2026-11-04T23:00:30Z",
+      "tag": "v0.1.6",
+      "asset": "Frontface-0.1.6-win64.zip",
+      "size": 63525952,
+      "sha256": "771cef6c72f863707846d019fe2ec2192fe780c2bd4f04bbc1dc426603ee10e7",
+      "notes": "The underbarrel launcher on servers, and finer soldiers, guns and attachments.\n\n- Fixed: on a server (the official one included), B said there was no launcher under the gun even with an M203 or GP-25 fitted. A joining player's game misread the launcher's name and built a plain rifle in its place. B now brings the launcher up on servers as it does offline, and its grenades fly.\n- Soldiers close to you (within about 16 m) are drawn in finer detail: rounder limbs, boots, hands and helmets, pocket snaps, knee pad ribs and buckles, boot tread and eyelets, a sleeve pocket with a flag patch, glove seams, the shirt's collar and zip, webbing loops round the vest and belt, buckles, zips, a drag handle, a helmet light, strobe and shock cord. Your own arms are always drawn this way. Soldiers further off keep the plain body, so a full 32-a-side fight costs about the same.\n- Attachments: clamp nuts and bolts, adjuster screws, lens rings, ring screws on scopes, flutes and vents on suppressors, notched bipod legs, a light's bezel and tail switch, lenses, knobs and a selector on laser boxes, the drum's winding key.\n- Every gun's round parts (barrels, tubes, grips, knobs) are smoother.\n- The first match after updating takes longer to load (about 20 seconds) while the new parts are shaded; after that it's as quick as before.\n- Servers must be 0.1.6 too. The official server runs 0.1.6.",
+      "server": {
+        "asset": "Frontface-Server-0.1.6-win64.zip",
+        "size": 56109673,
+        "sha256": "14d985817c50ba6ae6e476169060eac27fb69973cc070821de3eb4444d05a399"
+      },
+      "linux": {
+        "asset": "Frontface-0.1.6-linux-x86_64.zip",
+        "size": 52016106,
+        "sha256": "3c0f0b1c49c940175f4c8aa10f6effd733b32520827c7bd2de459c095724ee18"
+      }
+    },
     {
       "version": "0.1.5",
       "channel": "stable",
