@@ -13,5 +13,13 @@
       "sha256": "8438e131df22940fc679c915b65e99d090d4d0d5de886bb555dc1ae31d579311",
       "notes": "First build through the launcher.\n\n- Conquest on six maps against bots or other players, with your own classes.\n- Guns from every class's list, launchers, gadgets and killstreaks.\n- Controller support, steady aim, stims for every class.\n- Join a server by address from the launcher, or host one from the title screen."
     }
-  ]
+  ],
+  "launcher": {
+    "version": "1.0.0",
+    "tag": "launcher",
+    "asset": "Frontface-Launcher-win64.zip",
+    "size": 66420133,
+    "sha256": "2b6bd9d9529bab6b8632a99d01498166dda88db9b4c4e06d03baea25403105a8",
+    "date": "2026-11-04T02:29:49Z"
+  }
 }
