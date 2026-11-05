@@ -1,8 +1,28 @@
 {
   "schema": 1,
   "repo": "wkzdylan/frontface-builds",
-  "updated": "2026-11-05T20:06:15Z",
+  "updated": "2026-11-05T22:20:13Z",
   "versions": [
+    {
+      "version": "0.1.9",
+      "channel": "stable",
+      "date": "2026-11-05T22:20:13Z",
+      "tag": "v0.1.9",
+      "asset": "Frontface-0.1.9-win64.zip",
+      "size": 81771632,
+      "sha256": "b434f0930cd647f7b6ff8df31c2fb5f0a1599054a4a59cd8d8fc103da4147680",
+      "notes": "Joining the official server from Windows and Linux, and the camera in vehicles.\n\n- Fixed: the Windows and Linux versions were disconnected right after joining the official server, with \"Connection closed due to authentication failure\". The browser version wasn't affected. The fault was in the game engine's secure connection code, which lost data when a server sent it in large pieces, as the official server's does; the game now carries its own fixed copy of that code.\n- Fixed: in a vehicle the camera stayed where you were looking when you got in, and the mouse didn't move it. The driver's camera follows behind the HMMWV again and swings round with the mouse, the pilot's sits behind the Little Bird, and passengers look round from their seats.\n- Servers must be 0.1.9 too. The official server runs 0.1.9, for Windows, Linux and the browser.",
+      "server": {
+        "asset": "Frontface-Server-0.1.9-win64.zip",
+        "size": 74355795,
+        "sha256": "9040d351c0074492bf7c6de91969c284af8b4e0ea87a357b976f1d81ed0d14d8"
+      },
+      "linux": {
+        "asset": "Frontface-0.1.9-linux-x86_64.zip",
+        "size": 70267065,
+        "sha256": "33e431327d8b17de7fe6c3db3bf469e53f9313ce0a4a0f21b3249121c88ffab0"
+      }
+    },
     {
       "version": "0.1.8",
       "channel": "stable",
