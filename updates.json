@@ -14,6 +14,20 @@
   "releases": [
     {
       "date": "2026-11-05",
+      "label": "0.1.8",
+      "title": "Vehicles and small maps",
+      "summary": "The HMMWV and the MH-6 Little Bird, a small size for every map, covered spawns with spawn protection, waiting for a medic and dragging the fallen, and variable scopes.",
+      "entries": [
+        {"type": "new", "title": "Vehicles.", "text": "The HMMWV and the MH-6 Little Bird, parked beside each deployment: two HMMWVs and a Little Bird a side on a large map, one HMMWV on a small one. F gets in and out, 1 to 6 change seat. Two RPG-7s destroy either one, taking whoever is aboard with it; it comes back 45 seconds later. Bots don't use them yet.", "images": [{"src": "little-bird.jpg", "alt": "An MH-6 Little Bird in flight over The Depot, seen from behind, the container yard below", "caption": "Flying the Little Bird"}, {"src": "hmmwv.jpg", "alt": "A tan HMMWV driving across grass on The Depot, seen from the chase camera", "caption": "Driving the HMMWV"}]},
+        {"type": "new", "title": "Small maps.", "text": "Every map now has a Small size: its own first layout, 208 m across with three flags, for up to 16 a side. Team deathmatch and capture the flag pick it by default.", "images": [{"src": "small-oldtown.jpg", "alt": "Old Town at its small size from above: the town's streets with a deployment pad at each end", "caption": "Old Town, small"}]},
+        {"type": "improved", "title": "Spawns you can get out of.", "text": "Two staggered rows of concrete T-walls screen each deployment from the approach. You can't be hurt for 3 seconds after you deploy unless you fire first, and the other side's deployment is out of bounds.", "images": [{"src": "twalls.jpg", "alt": "Rows of concrete T-walls across the front of a deployment, seen from the road in front of it", "caption": "The new screen"}]},
+        {"type": "new", "title": "Wait for a medic, or get dragged to one.", "text": "Dead, you stay down until you press Space, and can be revived for 30 seconds. Anyone can drag a fallen teammate to cover with F for the medic.", "images": [{"src": "drag.jpg", "alt": "First person on The Depot with the prompts Press G to revive Tanaka and Dragging Tanaka, F to let go", "caption": "Dragging a squadmate"}]},
+        {"type": "improved", "title": "Variable scopes.", "text": "The Razor 1-6x, Mark 4 4-8x and PM II 5-12x change power with the mouse wheel while you aim."},
+        {"type": "fixed", "title": "Lights out.", "text": "A dead soldier's weapon light stayed on. The controls list fits on the screen again."}
+      ]
+    },
+    {
+      "date": "2026-11-05",
       "label": "0.1.7",
       "title": "Squads, new modes and real sights",
       "summary": "Squads with revives, Team Deathmatch, Capture the Flag and Rush, sights modelled on real ones, a soundtrack, and far fewer frame drops.",
