@@ -1,8 +1,28 @@
 {
   "schema": 1,
   "repo": "wkzdylan/frontface-builds",
-  "updated": "2026-11-05T02:51:14Z",
+  "updated": "2026-11-05T20:06:15Z",
   "versions": [
+    {
+      "version": "0.1.8",
+      "channel": "stable",
+      "date": "2026-11-05T20:06:15Z",
+      "tag": "v0.1.8",
+      "asset": "Frontface-0.1.8-win64.zip",
+      "size": 81768954,
+      "sha256": "e8b94f35c40bfea66287fe946f9844f65327b37a4d443e83976ae10298db8eaa",
+      "notes": "Vehicles, small maps, and spawns you can get out of.\n\n- Vehicles: the HMMWV (4 seats) and the MH-6 Little Bird (pilot, co-pilot and two benches of two). Each side gets two HMMWVs and a Little Bird beside its deployment on a large map, one HMMWV on a small one. F gets in and out, 1 to 6 change seat.\n- Driving the HMMWV: W and S drive and brake or reverse, A and D steer, Space is the handbrake, the mouse swings the camera. Flying the Little Bird: Space climbs, Ctrl sinks, W and S tip forward and back, A and D bank, the mouse turns it; let go of the stick and it holds a hover, and it settles gently when you land.\n- Vehicles take a little from bullets and a lot from explosives: two RPG-7s destroy either one. A destroyed vehicle kills whoever is aboard and comes back at its deployment 45 seconds later. Driving into enemies at speed knocks them down. Bots don't use vehicles yet.\n- Small maps: every map now has a Small size (match setup, Map size): the map's own first layout, 208 m across with three flags, for up to 16 a side. Team deathmatch and capture the flag pick it by default. Servers can set size = small.\n- Spawns: two staggered rows of concrete T-walls now screen each deployment, so it can't be watched and shot into from the approach (from 71% of sight lines to 12%). You can't be hurt for 3 seconds after you deploy or are revived, unless you fire first. The other side's deployment is out of bounds: 8 seconds in it and you die.\n- Dying: you now stay down until you press Space, so a medic can reach you (you can be revived for 30 seconds). Anyone can drag a fallen teammate to cover with F, then a medic revives them there.\n- Variable scopes: the Razor 1-6x, Mark 4 4-8x and PM II 5-12x change power with the mouse wheel or middle mouse while aiming.\n- Fixed: a dead soldier's weapon light stayed on. The controls list fits again.\n- Servers must be 0.1.8 too. The official server runs 0.1.8, for Windows, Linux and the browser.",
+      "server": {
+        "asset": "Frontface-Server-0.1.8-win64.zip",
+        "size": 74353117,
+        "sha256": "7900433cc98f2fdd0dd572640fce48384b189703087ee92c9fe5fd5790c6b319"
+      },
+      "linux": {
+        "asset": "Frontface-0.1.8-linux-x86_64.zip",
+        "size": 70263857,
+        "sha256": "c84d292dc489b09eaad955c035849e49697cc80b66fa3c8c908b4beb23ef5eae"
+      }
+    },
     {
       "version": "0.1.7",
       "channel": "stable",
