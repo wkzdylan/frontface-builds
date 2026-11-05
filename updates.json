@@ -24,7 +24,7 @@
         {"type": "improved", "title": "Far fewer frame drops.", "text": "Soldiers are now animated on the graphics card: looking over the deployment with 64 soldiers went from about 30 to over 150 fps on an RTX 5060 laptop. A launch screen shows at once and the title is up in under two seconds."},
         {"type": "improved", "title": "A new look.", "text": "A new title screen with the version on it, a Colour setting (Natural, Rich, Vivid) with deeper shadows and fuller colour, and more effects: sparks and embers in explosions, dust and sparks where bullets hit, embers above fires, dust from slides and dives.", "images": [{"src": "title-017.jpg", "alt": "The title screen: two soldiers at golden hour behind sandbags, the menu on the left", "caption": "The new title"}]},
         {"type": "new", "title": "A soundtrack.", "text": "A title theme, a deploy piece, a battle theme as the match starts, and victory and defeat themes. Music has its own volume slider."},
-        {"type": "new", "title": "The official server in the browser.", "text": "The web version has a Servers page, and the official server now takes players from the browser and from the Windows and Linux versions alike."},
+        {"type": "new", "title": "Servers in the browser.", "text": "The web version has a Servers page. It joins servers that run for browsers; the official server is still for the Windows and Linux versions."},
         {"type": "fixed", "title": "Neck shots.", "text": "Bullets and rockets at neck height went through a soldier between the chest and the head. They hit now."}
       ]
     },
