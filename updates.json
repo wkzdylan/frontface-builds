@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "hero": { "src": "depot.jpg", "alt": "First person view at The Depot, an M4A1 with a red dot beside a parked truck", "caption": "The Depot" },
   "pictures": [
     { "src": "spawn.jpg", "alt": "Spawning on The Depot with an M4A1", "caption": "Spawning on The Depot" },
@@ -12,6 +12,22 @@
     { "src": "church.jpg", "alt": "Light shafts around a church in Old Town", "caption": "Light shafts" }
   ],
   "releases": [
+    {
+      "date": "2026-11-05",
+      "label": "0.1.7",
+      "title": "Squads, new modes and real sights",
+      "summary": "Squads with revives, Team Deathmatch, Capture the Flag and Rush, sights modelled on real ones, a soundtrack, and far fewer frame drops.",
+      "entries": [
+        {"type": "new", "title": "Squads and revives.", "text": "You join a squad of four. Deploy on a squadmate, and see your squad in a panel and marked in green. Medics carry a defibrillator: stand over a fallen teammate to bring them back where they fell.", "images": [{"src": "squad-revive.jpg", "alt": "First person behind two squadmates on The Depot, the defibrillator in the gadget list", "caption": "Back on their feet"}]},
+        {"type": "new", "title": "Three new game modes.", "text": "Team Deathmatch, Capture the Flag (first to three captures) and Rush (attackers arm two objectives a stage, over three stages). Pick one in the match setup.", "images": [{"src": "rush.jpg", "alt": "Rush on The Depot: objective A armed, a fuse counting down", "caption": "Rush, objective A armed"}]},
+        {"type": "new", "title": "Real sights and new attachments.", "text": "Every sight is now a real model: EOTech EXPS3, Aimpoint T-2, Trijicon RMR, Holosun HS510C, Spitfire 3x, ACOG TA31, Razor 1-6x, Mark 4 and PM II. New: the Aimpoint CompM4, the PSO-1 on the AK side rail with its rangefinder reticle, the Grip-Pod and an offset light. Bipods stand when you lie down or rest the gun, lights and lasers switch with L, and the D-60 drum is remodelled.", "images": [{"src": "pso1.jpg", "alt": "Looking through a PSO-1 scope on an AK-74 at a target board, its chevrons and windage scale lit", "caption": "PSO-1 4x"}]},
+        {"type": "improved", "title": "Far fewer frame drops.", "text": "Soldiers are now animated on the graphics card: looking over the deployment with 64 soldiers went from about 30 to over 150 fps on an RTX 5060 laptop. A launch screen shows at once and the title is up in under two seconds."},
+        {"type": "improved", "title": "A new look.", "text": "A new title screen with the version on it, a Colour setting (Natural, Rich, Vivid) with deeper shadows and fuller colour, and more effects: sparks and embers in explosions, dust and sparks where bullets hit, embers above fires, dust from slides and dives.", "images": [{"src": "title-017.jpg", "alt": "The title screen: two soldiers at golden hour behind sandbags, the menu on the left", "caption": "The new title"}]},
+        {"type": "new", "title": "A soundtrack.", "text": "A title theme, a deploy piece, a battle theme as the match starts, and victory and defeat themes. Music has its own volume slider."},
+        {"type": "new", "title": "The official server in the browser.", "text": "The web version has a Servers page, and the official server now takes players from the browser and from the Windows and Linux versions alike."},
+        {"type": "fixed", "title": "Neck shots.", "text": "Bullets and rockets at neck height went through a soldier between the chest and the head. They hit now."}
+      ]
+    },
     {
       "date": "2026-11-04",
       "label": "0.1.6",
