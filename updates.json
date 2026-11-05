@@ -14,6 +14,16 @@
   "releases": [
     {
       "date": "2026-11-05",
+      "label": "0.1.9",
+      "title": "Joining from the desktop, and the vehicle camera",
+      "summary": "The Windows and Linux versions stay connected to the official server, and the camera in vehicles follows the mouse again.",
+      "entries": [
+        {"type": "fixed", "title": "Joining the official server.", "text": "The Windows and Linux versions were disconnected right after joining the official server, with \"Connection closed due to authentication failure\". The fault was in the game engine's secure connection code, which lost data when a server sent it in large pieces; the game now carries its own fixed copy. The browser version wasn't affected."},
+        {"type": "fixed", "title": "The camera in vehicles.", "text": "The camera stayed where you were looking when you got in, and the mouse didn't move it. The driver's camera follows behind the HMMWV again and swings round with the mouse, the pilot's sits behind the Little Bird, and passengers look round from their seats."}
+      ]
+    },
+    {
+      "date": "2026-11-05",
       "label": "0.1.8",
       "title": "Vehicles and small maps",
       "summary": "The HMMWV and the MH-6 Little Bird, a small size for every map, covered spawns with spawn protection, waiting for a medic and dragging the fallen, and variable scopes.",
