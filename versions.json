@@ -1,8 +1,28 @@
 {
   "schema": 1,
   "repo": "wkzdylan/frontface-builds",
-  "updated": "2026-11-05T22:20:13Z",
+  "updated": "2026-11-06T00:14:19Z",
   "versions": [
+    {
+      "version": "0.1.10",
+      "channel": "stable",
+      "date": "2026-11-06T00:14:19Z",
+      "tag": "v0.1.10",
+      "asset": "Frontface-0.1.10-win64.zip",
+      "size": 81778379,
+      "sha256": "e67e974f21d0c9e52677baf1aeb8f303eb1dbc568a055335bb4f190069fac0b8",
+      "notes": "Staying connected on slower machines, such as the Steam Deck.\n\n- Fixed: a slower machine was still disconnected from the official server right after joining, usually just as the map finished loading. While a player is loading, the server keeps sending; the game's network code then took in more at once than it had room for and gave up. It now takes it in smaller pieces, with four times the room, and catches up in a few frames. Checked with the game frozen for up to 25 seconds after joining, and with the Linux version loading for 37 seconds.\n- Servers must be 0.1.10 too. The official server runs 0.1.10, for Windows, Linux and the browser.",
+      "server": {
+        "asset": "Frontface-Server-0.1.10-win64.zip",
+        "size": 74362542,
+        "sha256": "316b37e2ef4c3598f305881bd973a5ab7a32fd0a1a5b56bb87eb133b4347a6c0"
+      },
+      "linux": {
+        "asset": "Frontface-0.1.10-linux-x86_64.zip",
+        "size": 70274716,
+        "sha256": "f51a4e4a8e42b7ae8dd88c11e884b30711ad972717829905080fb7cdecbe1807"
+      }
+    },
     {
       "version": "0.1.9",
       "channel": "stable",
