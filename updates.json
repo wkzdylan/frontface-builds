@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "hero": { "src": "depot.jpg", "alt": "First person view at The Depot, an M4A1 with a red dot beside a parked truck", "caption": "The Depot" },
   "pictures": [
     { "src": "spawn.jpg", "alt": "Spawning on The Depot with an M4A1", "caption": "Spawning on The Depot" },
@@ -12,6 +12,18 @@
     { "src": "church.jpg", "alt": "Light shafts around a church in Old Town", "caption": "Light shafts" }
   ],
   "releases": [
+    {
+      "date": "2026-11-06",
+      "label": "0.1.11",
+      "title": "Smarter bots, smoother ground",
+      "summary": "Bots fight as fire teams with a shared plan, the ground is one smooth surface, maps are brighter, and Y is Use on a controller.",
+      "entries": [
+        {"type": "improved", "title": "Smarter bots.", "text": "Bots fight in fire teams under a side-wide plan for the flags, share a radio of enemy sightings, watch the ways onto each flag, and shoot back when they're seen while hurt. In testing they won 16 of 16 matches against the old bots."},
+        {"type": "improved", "title": "Smooth ground.", "text": "The ground shades and colours as one rolling surface. Grass drifts between its shades over metres and dirt patches fade in at their edges, so it no longer looks like a checkerboard."},
+        {"type": "improved", "title": "Brighter maps.", "text": "Lighting is brighter, with more fill in the shadows."},
+        {"type": "new", "title": "Use on a controller.", "text": "Y drags a fallen teammate and gets you into or out of a vehicle, and the prompts say Y instead of F. With nothing in reach, Y still swaps weapons. In a vehicle, the controls line shows controller buttons."}
+      ]
+    },
     {
       "date": "2026-11-06",
       "label": "0.1.10",
