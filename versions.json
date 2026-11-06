@@ -1,8 +1,28 @@
 {
   "schema": 1,
   "repo": "wkzdylan/frontface-builds",
-  "updated": "2026-11-06T00:14:19Z",
+  "updated": "2026-11-06T04:24:13Z",
   "versions": [
+    {
+      "version": "0.1.11",
+      "channel": "stable",
+      "date": "2026-11-06T04:24:13Z",
+      "tag": "v0.1.11",
+      "asset": "Frontface-0.1.11-win64.zip",
+      "size": 81793928,
+      "sha256": "6ef086e416fd4d95ea5be499ec07ffd9cf718ceb747314f324e8c8d79b0b4a06",
+      "notes": "Smarter bots, smoother ground, brighter maps and a controller button for Use.\n\n- Smarter bots: fire teams under a side-wide flag plan, a shared radio of enemy sightings, watching the ways onto each flag, and shooting back when seen while hurt. In testing they won 16 of 16 matches against the old bots.\n- The ground is one smooth surface now. Grass drifts between its shades over metres and dirt patches fade in at their edges, so it no longer looks like a checkerboard.\n- Lighting is brighter, with more fill in the shadows.\n- On a controller, Y is Use: it drags a fallen teammate, and gets you into or out of a vehicle. The prompts name Y instead of F. With nothing in reach, Y still swaps weapons. The vehicle controls line also shows controller buttons.\n- Servers must be 0.1.11 too. The official server runs 0.1.11, so its bots are the new ones, for Windows, Linux and the browser.",
+      "server": {
+        "asset": "Frontface-Server-0.1.11-win64.zip",
+        "size": 74378091,
+        "sha256": "b532a0e44d45f550cf6504a7a9582549abecd8216523af3a0396c6ddfadd2672"
+      },
+      "linux": {
+        "asset": "Frontface-0.1.11-linux-x86_64.zip",
+        "size": 70290243,
+        "sha256": "3094eae63c025eae8486e3962bb405408355f6b78b24a73d80db78e63095ec86"
+      }
+    },
     {
       "version": "0.1.10",
       "channel": "stable",
