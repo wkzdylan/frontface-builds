@@ -13,6 +13,15 @@
   ],
   "releases": [
     {
+      "date": "2026-11-06",
+      "label": "0.1.10",
+      "title": "Staying connected on the Steam Deck",
+      "summary": "Slower machines, such as the Steam Deck, stay connected to the official server after joining.",
+      "entries": [
+        {"type": "fixed", "title": "Dropped after joining.", "text": "A slower machine was still disconnected from the official server right after joining, usually just as the map finished loading. While a player is loading, the server keeps sending; the game's network code then took in more at once than it had room for and gave up. It now takes it in smaller pieces, with four times the room, and catches up in a few frames."}
+      ]
+    },
+    {
       "date": "2026-11-05",
       "label": "0.1.9",
       "title": "Joining from the desktop, and the vehicle camera",
